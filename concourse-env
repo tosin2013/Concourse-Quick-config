@@ -1,0 +1,6 @@
+export BBL_IAAS=gcp
+export BBL_GCP_REGION="us-east1"
+export KEYPATH=/Users/$USER/Documents/oluwatosinakinosho.key.json
+export BBL_GCP_SERVICE_ACCOUNT_KEY="$KEYPATH"
+export ROOTDISKSIZE="100"
+export MACHINETYPE="n1-standard-1"
