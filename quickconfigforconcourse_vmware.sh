@@ -3,6 +3,7 @@
 
 
 source concourse-env
+source boshdependencies.sh
 
 if [[ ! -d ~/workspace ]]; then
     mkdir ~/workspace
@@ -74,8 +75,6 @@ bosh vms
 echo "OUTPUT PATH:"
 echo "cd ../../$(pwd)"
 echo "You may need to export the following into your env"
-echo "export BBL_IAAS=gcp"
-echo 'export BBL_GCP_REGION="us-east1"'
-echo 'export BBL_GCP_SERVICE_ACCOUNT_KEY="'${KEYPATH}'"'
+
 echo 'eval "$(bbl print-env)"'
 echo "Your Concourse URL: $external_url"

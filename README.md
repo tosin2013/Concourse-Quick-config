@@ -18,7 +18,8 @@ The following script will automatically configure concourse servers in your netw
 
 ## Deployment
 
-quickconfigforconcource.sh will not prompt on change of instance type. It will skip any user prompts and just deploy. Script will create a folder under your ~/workspace directory with output.
+quickconfigforconcource_gcp.sh will not prompt on change of instance type. It will skip any user prompts and just deploy. Script will create a folder under your ~/workspace directory with output.
+quickconfigforconcource_vmware.sh - Work In Progress
 
 ## Usage
 ```
@@ -41,7 +42,9 @@ step: terraform apply
 
 * [bosh-cli](https://bosh.io/docs/cli-v2/) bosh-cli
 * [bbl](https://github.com/cloudfoundry/bosh-bootloader/) - bosh-bootloader
-
+* [concourse-deployment](https://github.com/concourse/concourse-bosh-deployment)
+* [Lite-VM Concourse deployment](https://github.com/concourse/concourse-bosh-deployment/blob/master/lite/README.md)
+* [Cluster Concourse deployment](https://github.com/concourse/concourse-bosh-deployment/blob/master/cluster/README.md)
 
 ## Authors
 

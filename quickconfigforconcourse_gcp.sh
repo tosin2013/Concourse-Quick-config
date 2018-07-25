@@ -13,6 +13,8 @@ if [[ $DEBUG == "TRUE" ]]; then
 	RUNDEBUG="--debug"
 fi
 
+#check for bosh dependencies on system
+boshdependencies
 
 CONCOURSEWORKSPACE=concourse_$(date +%Y%m%d_%H%M%S)
 cd ~/workspace/
