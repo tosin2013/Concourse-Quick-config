@@ -18,8 +18,8 @@ The following script will automatically configure concourse servers in your netw
 
 ## Deployment
 
-quickconfigforconcource_gcp.sh will not prompt on change of instance type. It will skip any user prompts and just deploy. Script will create a folder under your ~/workspace directory with output.
-quickconfigforconcource_vmware.sh - Work In Progress
+* quickconfigforconcource_gcp.sh will not prompt on change of instance type. It will skip any user prompts and just deploy. Script will create a folder under your ~/workspace directory with output.
+* quickconfigforconcource_vmware.sh - Work In Progress
 
 ## Usage
 ```
