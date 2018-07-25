@@ -48,4 +48,4 @@ step: terraform apply
 
 ## Authors
 
-* **Tosin Akinosho** - *Initial work* - [Gitlab](https://gitlab.altoros.com/oluwatosin.akinosho)
+* **Tosin Akinosho** - *Initial work* - [Github](https://github.com/tosin2013)
